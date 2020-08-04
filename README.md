@@ -11,6 +11,15 @@ Sure there are a lot of articles in the Internet about this but they are all cra
 https://www.definit.co.uk/2020/03/pxe-booting-raspberry-pi-4-with-synology-and-ubiquiti-edgerouter/
 It was very usefull, however there are few caveates after final steps of the article.
 
+<h4>Synology NAS prerequisites</h4>
+
+* Prepare sd card for rpi as described [here](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2) 
+* Enable ssh as described [in section 3] (https://www.raspberrypi.org/documentation/remote-access/ssh/)
+* Insert card into your rpi4 and start it
+* Check that you are able to login using ssh
+* RSYNC TBC
+* Gracefully shutdown it
+
 <h4>Synology NAS</h4>
 
 You need to enable tftp
