@@ -11,11 +11,18 @@ Sure there are a lot of articles in the Internet about this but they are all cra
 https://www.definit.co.uk/2020/03/pxe-booting-raspberry-pi-4-with-synology-and-ubiquiti-edgerouter/
 It was very usefull, however there are few caveates after final steps of the article.
 
+<h5>Synology NAS</h5>
 
-<h6>Mikrotik</h6>
 
-In my case you need only one thing - set up one option for dhcp
-![GitHub Logo](/dhcp-option-66.png)
+<h5>Mikrotik</h5>
+
+In my case you need only one thing - set up one option for dhcp and place it as option or as a part of option set for your dhcp server
+![DHCP Option 66](/dhcp-option-66.png)
+
+
+At that moment you should be able to see a tftp logs on your NAS
+![TFTP Logs](/tftp-logs.png)
+
 
 
 <h6>TBC</h6>
