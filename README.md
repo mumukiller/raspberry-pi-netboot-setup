@@ -13,8 +13,8 @@ It was very usefull, however there are few caveates after final steps of the art
 
 <h4>Synology NAS prerequisites</h4>
 
-* Prepare sd card for rpi as described [here](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2) 
-* Enable ssh as described [in section 3] (https://www.raspberrypi.org/documentation/remote-access/ssh/)
+* Prepare sd card for rpi as described [in the official page](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2) 
+* Enable ssh as described [in section 3](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 * Insert card into your rpi4 and start it
 * Check that you are able to login using ssh
 * RSYNC TBC
