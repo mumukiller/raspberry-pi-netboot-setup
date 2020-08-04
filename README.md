@@ -14,4 +14,7 @@ It was very usefull, however there are few caveates after final steps of the art
 
 Mikrotik
 In my case you need only one thing - set up one option for dhcp
+![GitHub Logo](/dhcp-option-66.png)
+
+
 TBC
