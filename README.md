@@ -11,10 +11,15 @@ Sure there are a lot of articles in the Internet about this but they are all cra
 https://www.definit.co.uk/2020/03/pxe-booting-raspberry-pi-4-with-synology-and-ubiquiti-edgerouter/
 It was very usefull, however there are few caveates after final steps of the article.
 
-<h5>Synology NAS</h5>
+<h4>Synology NAS</h4>
 
+You need to enable tftp
 
-<h5>Mikrotik</h5>
+![TFTP Settings](/tftp-settings.png)
+
+![TFTP Advanced Settings](/tftp-advanced-settings.png)
+
+<h4>Mikrotik</h4>
 
 In my case you need only one thing - set up one option for dhcp and place it as option or as a part of option set for your dhcp server
 
@@ -26,9 +31,6 @@ At that moment you should be able to see a tftp logs on your NAS
 ![TFTP Logs](/tftp-logs.png)
 
 
-![TFTP Settings](/tftp-settings.png)
-
-![TFTP Advanced Settings](/tftp-advanced-settings.png)
 
 <h6>TBC</h6>
 
