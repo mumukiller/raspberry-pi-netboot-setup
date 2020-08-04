@@ -12,9 +12,11 @@ https://www.definit.co.uk/2020/03/pxe-booting-raspberry-pi-4-with-synology-and-u
 It was very usefull, however there are few caveates after final steps of the article.
 
 
-Mikrotik
+<h6>Mikrotik</h6>
+
 In my case you need only one thing - set up one option for dhcp
 ![GitHub Logo](/dhcp-option-66.png)
 
 
-TBC
+<h6>TBC</h6>
+
