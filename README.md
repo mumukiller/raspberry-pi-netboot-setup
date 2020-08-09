@@ -47,6 +47,8 @@ At that moment you should be able to see a tftp logs on your NAS
 
 <h6>TBC</h6>
 
+<h4>Logs</h4>
+
 <h4>P.S. I'm f...ing idiot</h4>
 
 The initial idea behind rpi is small media server with some usefull things like bitwarden, pivpn and that staff. The easeast way to make it is to use docker.
