@@ -1,4 +1,4 @@
-<h1>The story about raspberry pi 4, Synology NAS, Mikrotik ac2 and netboot or how to not spend a month trying to make these mthrfckr work</h1> 
+<h1>The story about raspberry pi 4, Synology NAS, Mikrotik ac2 and netboot or how to not spend a month trying to make these mthrfckrs work</h1> 
 
 Icy fingers gripped my arm in the darkness...
 Oh, sorry it's a wrong story!
