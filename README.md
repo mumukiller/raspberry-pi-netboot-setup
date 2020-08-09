@@ -53,11 +53,16 @@ So i spent about a week, desperadly trying to understand what's going on. Of cou
 I'm pretty sure the long version of this story will be much longer than this article. In fact i will have real chance to spend another week or two resolving this issue if my corrupted mind did not suggest me to look at new NAS...and i find this page https://www.synology.com/en-global/knowledgebase/DSM/tutorial/Compatibility_Peripherals/What_kind_of_CPU_does_my_NAS_have
 
 DS216j	Marvell Armada 385 88F6820	Dual Core	2	Yes	Armada38x	DDR3 512 MB
+
 Marvell Armada 385 88F6820
+
 Marvell Armada 385 
+
 Marvell Armada
 
+
 > Never ever "J" - models had Docker because they are NOT Intel x64 based and will never be 
+>
 > says official forum
 
 FUUUUUUUUUUUUUUUUUU
