@@ -39,6 +39,14 @@ At that moment you should be able to see a tftp logs on your NAS
 
 ![TFTP Logs](/tftp-logs.png)
 
+<h4>cmdline</h4>
+
+<h6>TBC</h6>
+
+<h4>fstab</h4>
+
+<h6>TBC</h6>
+
 <h4>P.S. I'm f...ing idiot</h4>
 
 The initial idea behind rpi is small media server with some usefull things like bitwarden, pivpn and that staff. The easeast way to make it it to use docker.
@@ -63,9 +71,10 @@ Marvell Armada
 
 > Never ever "J" - models had Docker because they are NOT Intel x64 based and will never be 
 >
->                                                                       Official forum says
+> Official forum says
 
 FUUUUUUUUUUUUUUUUUU
+
 
 
 
