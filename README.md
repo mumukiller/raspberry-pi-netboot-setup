@@ -39,6 +39,14 @@ At that moment you should be able to see a tftp logs on your NAS
 
 ![TFTP Logs](/tftp-logs.png)
 
+<h4>I'am f...ing idiot</h4>
+
+The initial idea behind rpi is small media server with some usefull things like bitwarden, pivpn and that staff. The easeast way to make it it to use docker.
+Th installation pretty simple. You just run one line script and voila...
+
+> truncate /var/lib/docker/devicemapper/devicemapper/data: file too large
+
+Yo, wtf!
 
 
 <h6>TBC</h6>
