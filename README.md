@@ -39,7 +39,7 @@ At that moment you should be able to see a tftp logs on your NAS
 
 ![TFTP Logs](/tftp-logs.png)
 
-<h4>I'am f...ing idiot</h4>
+<h4>P.S. I'm f...ing idiot</h4>
 
 The initial idea behind rpi is small media server with some usefull things like bitwarden, pivpn and that staff. The easeast way to make it it to use docker.
 Th installation pretty simple. You just run one line script and voila...
@@ -47,6 +47,21 @@ Th installation pretty simple. You just run one line script and voila...
 > truncate /var/lib/docker/devicemapper/devicemapper/data: file too large
 
 Yo, wtf!
+
+So i spent about a week, desperadly trying to understand what's going on. Of course it was not just wasted time, now i know what's difference between overlay2 and overlay because i read this https://docs.docker.com/storage/storagedriver/select-storage-driver/
+
+I'm pretty sure the long version of this story will be much longer than this article. In fact i will have real chance to spend another week or two resolving this issue if my corrupted mind did not suggest me to look at new NAS...and i find this page https://www.synology.com/en-global/knowledgebase/DSM/tutorial/Compatibility_Peripherals/What_kind_of_CPU_does_my_NAS_have
+
+DS216j	Marvell Armada 385 88F6820	Dual Core	2	Yes	Armada38x	DDR3 512 MB
+Marvell Armada 385 88F6820
+Marvell Armada 385 
+Marvell Armada
+
+> Never ever "J" - models had Docker because they are NOT Intel x64 based and will never be 
+> says official forum
+
+FUUUUUUUUUUUUUUUUUU
+
 
 
 <h6>TBC</h6>
