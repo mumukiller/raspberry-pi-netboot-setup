@@ -63,7 +63,7 @@ Marvell Armada
 
 > Never ever "J" - models had Docker because they are NOT Intel x64 based and will never be 
 >
-> says official forum
+>                                                                       Official forum says
 
 FUUUUUUUUUUUUUUUUUU
 
