@@ -49,25 +49,22 @@ At that moment you should be able to see a tftp logs on your NAS
 
 <h4>P.S. I'm f...ing idiot</h4>
 
-The initial idea behind rpi is small media server with some usefull things like bitwarden, pivpn and that staff. The easeast way to make it it to use docker.
-Th installation pretty simple. You just run one line script and voila...
+The initial idea behind rpi is small media server with some usefull things like bitwarden, pivpn and that staff. The easeast way to make it is to use docker.
+The installation pretty simple. You just run one line script and voila...
 
-> truncate /var/lib/docker/devicemapper/devicemapper/data: file too large
+> Error starting daemon: error initializing graphdriver: devmapper: Unable to grow loopback file /var/lib/docker/devicemapper/devicemapper/data: truncate /var/lib/docker/devicemapper/devicemapper/data: file too large
 
 Yo, wtf!
 
-So i spent about a week, desperadly trying to understand what's going on. Of course it was not just wasted time, now i know what's difference between overlay2 and overlay because i read this https://docs.docker.com/storage/storagedriver/select-storage-driver/
+So i spent about a week, desperadly trying to understand what's going on. Of course it was not just wasted time, now i know what's the difference between overlay2 and overlay and othe useful information. I read this https://docs.docker.com/storage/storagedriver/select-storage-driver/
 
-I'm pretty sure the long version of this story will be much longer than this article. In fact i will have real chance to spend another week or two resolving this issue if my corrupted mind did not suggest me to look at new NAS...and i find this page https://www.synology.com/en-global/knowledgebase/DSM/tutorial/Compatibility_Peripherals/What_kind_of_CPU_does_my_NAS_have
+I'm pretty sure that the long version of this story will be much longer than this article. In fact i will have real chance to spend another week or two resolving this issue if my corrupted mind did not suggest me to look at new NAS...and we comes to a short story!
 
-DS216j	Marvell Armada 385 88F6820	Dual Core	2	Yes	Armada38x	DDR3 512 MB
+I find this page https://www.synology.com/en-global/knowledgebase/DSM/tutorial/Compatibility_Peripherals/What_kind_of_CPU_does_my_NAS_have
 
-Marvell Armada 385 88F6820
+DS216j	<b>Marvell Armada</b> 385 88F6820	Dual Core	2	Yes	Armada38x	DDR3 512 MB
 
-Marvell Armada 385 
-
-Marvell Armada
-
+and later
 
 > Never ever "J" - models had Docker because they are NOT Intel x64 based and will never be 
 >
